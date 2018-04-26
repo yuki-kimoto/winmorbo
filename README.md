@@ -19,7 +19,7 @@ I hack Mojo::Server::Morbo in a simple way to make morbo work well in Windows.
 
 ## Donwload winmorbo.bat
 
-At first download *winmorb.bat* in your Mojolicious project directory.
+At first download **winmorb.bat** in your Mojolicious project directory.
 
 Click winmorbo.bat on GitHub and click Raw button to download winmorbo.bat
 
@@ -27,11 +27,11 @@ Click winmorbo.bat on GitHub and click Raw button to download winmorbo.bat
 
 morbo web server can't recevie TERM process well in Windows, so you can't send Ctrl + C signal to morbo server.
 
-To resolve this problem , It is good to use *start* command to excecute winmorbo.bat.
+To resolve this problem , It is good to use **start** command to excecute winmorbo.bat.
 
-You don't specify *.bat* extension because this is windows batch file.
+You don't specify **.bat** extension because this is windows batch file.
 
-Your Mojolicious application is *app.pl*.
+Your Mojolicious application is **app.pl**.
 
   start winmorbo app.pl
 
@@ -40,15 +40,15 @@ If you the follwoing window, it is success.
     C:\Users\kimot\labo>cmd /C perl -x -S winmorbo app.pl
     Server available at http://127.0.0.1:3000
 
-**FAQ
+## FAQ
 
-***I see "Can't opendir(templates)" Error
+### I see "Can't opendir(templates)" Error
 
-This is Windows problem because Windows have *Templates* directory in user directory.
+This is Windows problem because Windows have **Templates** directory in user directory.
 
-Mojolicious also use *templates* directory.
+Mojolicious also use **templates** directory.
 
-To resolve this problem, you create a directory, for example, *labo*.
+To resolve this problem, you create a directory, for example, **labo**.
 
     cd C:\Users\kimot
     mkdir labo
