@@ -33,7 +33,7 @@ You don't specify **.bat** extension because this is windows batch file.
 
 Your Mojolicious application is **app.pl**.
 
-  start winmorbo app.pl
+    start winmorbo app.pl
 
 If you the follwoing window, it is success.
 
