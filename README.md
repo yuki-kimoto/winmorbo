@@ -4,7 +4,7 @@ Tool to make Mojolicious Development server "morbo" work well in Windows
 
 # Usage
 
-    start winmorbo app.pl
+    winmorbo app.pl
 
 # Description
 
@@ -25,20 +25,20 @@ Click winmorbo.bat on GitHub and click Raw button to download winmorbo.bat
 
 ## Excecute winmorbo.bat
 
-morbo web server can't recevie TERM process well in Windows, so you can't send Ctrl + C signal to morbo server.
-
-To resolve this problem , It is good to use **start** command to excecute winmorbo.bat.
+Execute the following comman
 
 You don't specify **.bat** extension because this is windows batch file.
 
-Your Mojolicious application is **app.pl**.
+In this example, Mojolicious application is **app.pl**.
 
-    start winmorbo app.pl
+    winmorbo app.pl
 
 If you the follwoing window, it is success.
 
     C:\Users\kimot\labo>cmd /C perl -x -S winmorbo app.pl
     Server available at http://127.0.0.1:3000
+
+If you stop Mojolicious application, you can use Ctrl + C.
 
 ## FAQ
 
