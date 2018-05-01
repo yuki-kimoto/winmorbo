@@ -25,7 +25,7 @@ Click winmorbo.bat on GitHub and click Raw button to download winmorbo.bat
 
 ## Excecute winmorbo.bat
 
-Execute the following comman
+Execute the following command.
 
 You don't specify **.bat** extension because this is windows batch file.
 
